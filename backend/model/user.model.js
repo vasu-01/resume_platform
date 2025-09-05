@@ -42,4 +42,4 @@ const userSchema = new Schema({
   resumes: [resumeSchema],
 });
 
-module.exports = mongoose.model("User", userSchema);
+export const User = mongoose.model("User", userSchema);
